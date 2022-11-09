@@ -7,7 +7,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import React from "react";
 import { globalStyles } from "./styles/global";
 import { ThemeProvider, useTheme } from "./utils/contexts/theme";
 
@@ -38,15 +37,13 @@ export function links() {
 function App() {
   const [theme] = useTheme()
 
-
-  globalStyles();
-
   return (
     <html lang="en" className={theme as string}>
       <head>
         <Meta />
         <Links />
       </head>
+      {globalStyles()}
       <body>
         <Outlet />
         <ScrollRestoration />

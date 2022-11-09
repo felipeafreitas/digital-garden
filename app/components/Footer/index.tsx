@@ -4,7 +4,10 @@ const Container = styled('div', {
   padding: 30,
   display: 'flex',
   justifyContent: 'center',
-  marginTop: 200
+  marginTop: 200,
+  'a': {
+    fontSize: '1rem'
+  }
 })
 
 export default function Footer() {

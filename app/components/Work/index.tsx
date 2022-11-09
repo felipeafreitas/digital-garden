@@ -1,18 +1,19 @@
 import { Section } from "../Base/Section"
 import SectionHeader from "../SectionHeader"
 import { styled } from "~/styles/stitches.config"
-import Pluga1 from '../../../public/static/pluga1.svg'
-import Pluga2 from '../../../public/static/pluga2.svg'
-import Pluga3 from '../../../public/static/pluga3.png'
-import Pluga4 from '../../../public/static/pluga4.png'
+import Pluga1 from '../../assets/images/pluga1.svg'
+import Pluga2 from '../../assets/images/pluga2.svg'
+import Pluga3 from '../../assets/images/pluga3.png'
+import Pluga4 from '../../assets/images/pluga4.png'
 import { ExternalLinkIcon } from "@radix-ui/react-icons"
 
 const CardImage = styled('img', {
   height: 245,
-  width: 300,
+  maxWidth: 340,
   border: '1 px solid rgba(255, 255, 255, 0.73)',
   borderRadius: 6,
-  objectFit: 'cover',
+  objectFit: 'none',
+  objectPosition: 'center'
 })
 
 const Button = styled('a', {

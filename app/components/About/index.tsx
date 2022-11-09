@@ -1,7 +1,7 @@
 import { Section } from "../Base/Section"
 import SectionHeader from "../SectionHeader"
 import TechnologiesContainer from "./TechnologiesContainer"
-import ProfilePic from '../../../public/static/profile.jpeg'
+import ProfilePic from '../../assets/images/profile.jpeg'
 import { styled } from "~/styles/stitches.config"
 
 const Image = styled('img', {
@@ -25,7 +25,7 @@ export default function About() {
         }}>
         <div style={{display: 'flex', flexDirection: 'column', width: '50%'}}>
           <p>
-            Hello! My name is Felipe and I enjoy creating things that live on the internet. My interest in web development started back in 2010 when I started to build my first pages using HTML and CSS.
+            Hello! My name is Felipe and I enjoy creating things that live on the internet. My interest in web development started back in 2010, when I started to build my first pages using HTML and CSS.
           </p>
           <br />
           <p>
